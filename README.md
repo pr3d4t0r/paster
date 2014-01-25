@@ -84,6 +84,8 @@ Contributors, license, other information
 ----------------------------------------
 Use the Force.  Read the Source.
 
+**License:** short answer - 3-clause BSD.
+
 The paster.vim source file features the contributors list and
 version history.  The configuration is documented in the
 paster-config.vim file.
