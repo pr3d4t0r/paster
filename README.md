@@ -1,6 +1,6 @@
 Paster
 ======
-`Paste` text from the current document onto a public pastebin or board.  This
+Paste text from the current document onto a public pastebin or board.  This
 implementation is written in vim to reduce external dependencies to Python or
 Perl.  The only external dependency is cURL (e.g. /usr/bin/curl in UNIX-like
 systems) as an HTTP posting tool.  This posting tool, and all its command line
@@ -28,12 +28,12 @@ Once installed, the Paste[bin] command may be invoked in any of these patterns:
 :42,69Paste -- paste lines 42 through 69, inclusive 
 ```
 
-The `Paste` command will work with selections made in visual mode as well.
+The Paste command will work with selections made in visual mode as well.
 
-`Paste` will prompt for a value if the user hasn't defined a /nick or ID prior
+Paste will prompt for a value if the user hasn't defined a /nick or ID prior
 to the command's first invocation.
 
-Upon successful completion, `Paste` will display the URL to the paste.  `Paste` will also copy it to the window manager's clipboard under
+Upon successful completion, Paste will display the URL to the paste.  Paste will also copy it to the window manager's clipboard under
 MacVim and gvim. 
 
 
